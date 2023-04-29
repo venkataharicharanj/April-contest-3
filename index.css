@@ -1,0 +1,30 @@
+.grid{
+    max-width: 100%;
+    margin: 110px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    grid-template-rows: repeat(4, 200px);
+    column-gap: 10px;
+    row-gap: 10px;
+    
+}
+
+.grid-items1{
+    grid-row-start: 1;
+    grid-row-end: 5;
+    }
+.item1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.item8{
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+.item9{
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 5;
+
+}
